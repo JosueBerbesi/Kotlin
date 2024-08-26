@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">HospitApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="bt_inicio">Inciar Sesión</string>
+    <string name="tx_registrarse">¿no tienes una cuenta? Regístrate aquí!</string>
+    <string name="tx_registrarse_2">Registrarse</string>
+    <string name="tx_olvidaste">¿Olvidaste tu Contraseña?</string>
+    <string name="tx_hospital">Bienvenido al Hospital</string>
+    <string name="ed_correo">Correo Electronico</string>
+    <string name="ed_contraseña">Contraseña</string>
+    <string name="ed_contraseña2">Repita la Contraseña</string>
+
+    <string name="ed_registra">Registra tus datos</string>
+    <string name="ed_datos_usurio">Datos del Usuario</string>
+    <string name="ed_usuario">Nombre Completo</string>
+    <string name="ed_edad">Edad</string>
+    <string name="ed_telefono">Telefono</string>
+    <string name="ed_sexo">Sexo</string>
+    <string name="ed_discapacidad">Discapacidad</string>
+
+    <string name="tv_agenda">Agenda tu cita</string>
+    <string name="ic_historial">Historial</string>
+    <string name="ic_cita">Citas</string>
+    <string name="fecha">Fecha</string>
+
+    <string-array name="sexo_array">
+        <item>Sexo</item>
+        <item>Femenino</item>
+        <item>Masculino</item>
+    </string-array>
+
+    <!-- Array para los elementos de departamento -->
+    <string-array name="departamento_array">
+        <item>Seleccione un departamento</item>
+        <item>Odontología</item>
+        <item>Posparto</item>
+        <item>Emergencia</item>
+        <item>Consulta General</item>
+    </string-array>
+
+    <string-array name="departamentoCita_array">
+        <item>Seleccione un departamento</item>
+        <item>Odontología</item>
+        <item>Posparto</item>
+        <item>Emergencia</item>
+        <item>Consulta General</item>
+    </string-array>
+</resources>

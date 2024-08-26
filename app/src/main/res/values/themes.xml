@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HelloAndriodStudio" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorSecondary">@color/blue</item>
+
+    </style>
+
+    <style name="Theme.HelloAndriodStudio" parent="Base.Theme.HelloAndriodStudio" />
+
+        <!-- Otros estilos -->
+        <style name="CustomTextSpinner" parent="Widget.AppCompat.Spinner">
+            <item name="android:textColor">@color/dark_grey</item>
+        </style>
+
+        <style name="CustomEditText" parent="Widget.AppCompat.EditText">
+            <item name="colorControlNormal">@color/dark_grey</item>
+            <item name="colorControlActivated">@color/dark_grey</item>
+            <item name="colorControlHighlight">@color/dark_grey</item>
+        </style>
+
+
+
+</resources>

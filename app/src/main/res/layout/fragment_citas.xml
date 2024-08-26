@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2"
+    tools:context=".fragment.CitasFragment">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="188dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="59dp"
+        android:background="@drawable/shape_log_bt"
+        android:fontFamily="@font/comfortaa_bold"
+        android:gravity="center"
+        android:text="@string/ic_cita"
+        android:textColor="@color/dark_grey"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toStartOf="@+id/off0"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/off0"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="116dp"
+        android:background="@drawable/off"
+        app:layout_constraintBottom_toTopOf="@+id/spinner_cita"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/spinner_cita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/shape_barra"
+        android:fontFamily="@font/comfortaa_bold"
+        android:padding="5dp"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="30sp"
+        android:background="@drawable/shape_tar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_cita">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecicleCitas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15sp"
+            android:layout_marginBottom="65sp"
+            android:padding="5sp" />
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

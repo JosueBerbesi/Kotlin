@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ico_cita"
+        android:icon="@drawable/baseline_calendar_month_24"
+        android:title="@string/ic_cita"/>
+
+    <item
+        android:title=""
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/ico_historial"
+        android:icon="@drawable/baseline_history_24"
+        android:title="@string/ic_historial"
+        android:iconTint="@color/black"/>
+</menu>
